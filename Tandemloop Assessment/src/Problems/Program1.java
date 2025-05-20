@@ -46,7 +46,7 @@ public class Program1 {
         System.out.print("Enter second number (b): ");
         double b = sc.nextDouble();
 
-        sc.nextLine(); // consume the newline
+        sc.nextLine(); 
         System.out.print("Enter operation (1.add, 2.subtract, 3.multiply, 4.divide): ");
         String operation = sc.nextLine();
 

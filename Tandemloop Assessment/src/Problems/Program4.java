@@ -7,12 +7,10 @@ public class Program4 {
         int[] input = {1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30};
         Map<Integer, Integer> result = new LinkedHashMap<>();
 
-        // Initialize map with keys 1 to 9 and values 0
         for (int i = 1; i <= 9; i++) {
             result.put(i, 0);
         }
 
-        // Count multiples
         for (int num : input) {
             for (int i = 1; i <= 9; i++) {
                 if (num % i == 0) {
@@ -21,7 +19,6 @@ public class Program4 {
             }
         }
 
-        // Print result
         System.out.println(result);
     }
 }
